@@ -1,0 +1,36 @@
+.editor-body {
+    background-color: rgb(28, 28, 28);
+    overflow: auto;
+}
+
+.editor-line {
+    display: flex;
+    align-items: center;
+    padding: 3px;
+}
+
+.editor-line:hover {
+    background-color: rgb(40, 40, 40);
+}
+
+.editor-id,
+.editor-input {
+    color: rgb(230, 230, 230);
+    font: bold 16px monospace;
+}
+
+.editor-id {
+    width: 30px;
+}
+
+.editor-input {
+    flex: 1;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+}
+
+.editor-input:focus {
+    outline: none;
+}

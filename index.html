@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Editor</title>
+    <script src="./builds/latest.js" defer></script>
+    <style>body{margin:0}</style>
+    <script defer>
+        setTimeout(() => {
+            let f = new editor.editor(['Hello, World!']);
+            f.tag.style.height = '100vh';
+            f.attach(document.getElementById('1'));
+        }, 100); /* :kafif: */
+    </script>
+</head>
+<body>
+    <div id="1" style="width:100vw;height: 100vh;"></div>
+</body>
+</html>
